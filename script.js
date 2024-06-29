@@ -8,4 +8,4 @@ const text = document.getElementsByClassName("text")[0]
 
   text.innerHTML = circleText;
 
-  console.log(circleText)
+  // console.log(circleText)
