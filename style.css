@@ -8,6 +8,13 @@ body{
     align-items: center;
 }
 
+.main-container{
+    height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
 .circle{
     width: 180px;
     height: 180px;
@@ -57,3 +64,47 @@ body{
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+  .signUp {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 44px;
+    border: none;
+    background-color: #f27229;
+    color: white;
+    font-size: 18px;
+    z-index: 1;
+  }
+  .signIn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 44px;
+    border: 1px solid #f27229;
+    background-color: white;
+    color: #f27229;
+    font-size: 18px;
+    z-index: 1;
+  }
+  .div  {
+    /* width: 30px; */
+    height: 28px;
+    background: #f27229;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    z-index: 0;
+  }
